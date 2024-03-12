@@ -20,7 +20,10 @@ body {
 
 .wrapper {
   width: 420px;
-  background-color: plum;
+  background-color: transparent; /* 백그라운드 투명 */
+  border: 2px solid rgba(255, 255, 255, 0.2); /* 보더 투명한 흰색 */
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   color: #fff;
   border-radius: 10px;
   padding: 30px 40px;
